@@ -29,6 +29,11 @@ android {
     kotlinOptions {
         jvmTarget = '11'
     }
+
+    // https://developer.android.google.cn/topic/libraries/view-binding?hl=zh-cn
+    viewBinding {
+        enabled = true
+    }
 }
 
 dependencies {
